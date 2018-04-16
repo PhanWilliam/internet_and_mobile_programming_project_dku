@@ -6,7 +6,7 @@ public class ShortestPath {
 		for (int i = 0; i < prev.length; i++) {
 			System.out.print(dist[i] + "("+ prev[i] +") ");
 		}
-		System.out.println("");
+		System.out.println(" ");
 	}
 	
 	public int[][] moveGraph(int graph[][], int source){
